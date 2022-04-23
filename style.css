@@ -40,19 +40,20 @@ table td
 #compute
 {
     margin-bottom: 10px;
-    background-color: white;
+    background-color: lightgrey
     color: black;
-    height: 40px;
+    height: 20px;
     width: 150px;
+    
 }
 #principal{
-    height: 25px;
+    height: 20px;
     width: 190px;
 }
 
 #years{
     height: 35px;
-    width: 190px;
+    width: 40px;
 }
 
 #footer
