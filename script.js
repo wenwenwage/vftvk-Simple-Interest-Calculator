@@ -1,13 +1,10 @@
 function compute()
 {
     var principal = document.getElementById("principal").value;
-
     if(principal == "" || principal <= 0)
-    {
-        alert("Enter a positive number");
+    {   alert("Enter a positive number");
         document.getElementById("principal").focus();
-        return;
-    }
+        return; }
 
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
@@ -24,9 +21,7 @@ function SliderValue()
 {
     var slider = document.getElementById("rate");
     var output = document.getElementById("rate_display");
-    output.innerHTML = slider.value; // Display the default slider value
-
-    // Update the current slider value (each time you drag the slider handle)
+    output.innerHTML = slider.value; 
     slider.oninput = function() 
     {
         output.innerHTML = this.value;
